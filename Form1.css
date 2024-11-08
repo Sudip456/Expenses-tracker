@@ -1,0 +1,51 @@
+.main{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    top: 90px;
+    left: -50px;
+}
+.main2{
+    width: 50vw ;
+    height: 40vh;
+    position: relative;
+    left: 30px;
+    box-shadow: 2px 2px 8px 2px  rgb(119, 108, 108) , -2px -2px 2px 2px white;
+}
+form{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 90vw;
+    height: 56vh;
+}
+.lbl{
+ font-weight: 900;
+}
+h1{
+    top: -50px;
+    position: absolute;
+    color: aqua;
+    text-decoration:  underline;
+    
+}
+.div1{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    height: 10vh;
+    width: auto;
+}
+form input{
+    padding: 4px;
+    border-radius: 4px;
+}
+button{
+    position: relative;
+    left: 20vw;
+    width: 12vw;
+    height: 6vh;
+    top: -35px;
+    background-color: aqua;
+}
